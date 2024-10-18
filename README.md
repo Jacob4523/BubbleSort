@@ -1,18 +1,20 @@
-## Getting Started
+## Bubble Sort App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the Bubble Sort App!
+This app will take a file that contains integers (each on a separate line) and sort them, or an integer to create an array with random integers that is then sorted.
 
-## Folder Structure
+## Inputting a File
 
-The workspace contains two folders by default, where:
+Inputting a file containing integers (each on a separate line) will take the array and sort them, saving the result to arraySorted.txt.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Inputting an Integer
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Inputting an integer will create an array containing the number of elements equal to the integer you inputted.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Each element will be a random integer from 0-100, and the result is saved to arrayRandom.txt.
 
-## Dependency Management
+Afterwards, the resulting array will be sorted and saved into a separate file named arraySorted.txt.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Sample File
+
+Array1.txt has been provided as a sample file to input.
